@@ -1,0 +1,3 @@
+C:/Users/JerryZhu/Desktop/android-ndk/smart_v8/app/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/gl2v8.dir
+C:/Users/JerryZhu/Desktop/android-ndk/smart_v8/app/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/edit_cache.dir
+C:/Users/JerryZhu/Desktop/android-ndk/smart_v8/app/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/rebuild_cache.dir

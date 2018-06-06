@@ -1,0 +1,123 @@
+
+{
+	"buildFiles" : 
+	[
+		"C:/Users/JerryZhu/Desktop/android-ndk/smart_v8/app/src/main/cpp/CMakeLists.txt"
+	],
+	"cleanCommands" : 
+	[
+		"E:\\adt-bundle-windows-x86_64\\sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build C:\\Users\\JerryZhu\\Desktop\\android-ndk\\smart_v8\\app\\.externalNativeBuild\\cmake\\debug\\armeabi-v7a --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"gl2v8-Debug-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "gl2v8",
+			"buildCommand" : "E:\\adt-bundle-windows-x86_64\\sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build C:\\Users\\JerryZhu\\Desktop\\android-ndk\\smart_v8\\app\\.externalNativeBuild\\cmake\\debug\\armeabi-v7a --target gl2v8",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/adt-bundle-windows-x86_64/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/adt-bundle-windows-x86_64/sdk/ndk-bundle/sysroot  -Dgl2v8_EXPORTS -IC:\\Users\\JerryZhu\\Desktop\\android-ndk\\smart_v8\\app\\src\\main\\cpp\\glm -IC:\\Users\\JerryZhu\\Desktop\\android-ndk\\smart_v8\\app\\src\\main\\cpp\\include -isystem E:\\adt-bundle-windows-x86_64\\sdk\\ndk-bundle\\sources\\cxx-stl\\llvm-libc++\\include -isystem E:\\adt-bundle-windows-x86_64\\sdk\\ndk-bundle\\sources\\android\\support\\include -isystem E:\\adt-bundle-windows-x86_64\\sdk\\ndk-bundle\\sources\\cxx-stl\\llvm-libc++abi\\include  -isystem E:/adt-bundle-windows-x86_64/sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11  -std=c++11 -Wall -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "C:/Users/JerryZhu/Desktop/android-ndk/smart_v8/app/src/main/cpp/ColorShaderProgram.cpp",
+					"workingDirectory" : "C:/Users/JerryZhu/Desktop/android-ndk/smart_v8/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/adt-bundle-windows-x86_64/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/adt-bundle-windows-x86_64/sdk/ndk-bundle/sysroot  -Dgl2v8_EXPORTS -IC:\\Users\\JerryZhu\\Desktop\\android-ndk\\smart_v8\\app\\src\\main\\cpp\\glm -IC:\\Users\\JerryZhu\\Desktop\\android-ndk\\smart_v8\\app\\src\\main\\cpp\\include -isystem E:\\adt-bundle-windows-x86_64\\sdk\\ndk-bundle\\sources\\cxx-stl\\llvm-libc++\\include -isystem E:\\adt-bundle-windows-x86_64\\sdk\\ndk-bundle\\sources\\android\\support\\include -isystem E:\\adt-bundle-windows-x86_64\\sdk\\ndk-bundle\\sources\\cxx-stl\\llvm-libc++abi\\include  -isystem E:/adt-bundle-windows-x86_64/sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11  -std=c++11 -Wall -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "C:/Users/JerryZhu/Desktop/android-ndk/smart_v8/app/src/main/cpp/Mallet.cpp",
+					"workingDirectory" : "C:/Users/JerryZhu/Desktop/android-ndk/smart_v8/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/adt-bundle-windows-x86_64/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/adt-bundle-windows-x86_64/sdk/ndk-bundle/sysroot  -Dgl2v8_EXPORTS -IC:\\Users\\JerryZhu\\Desktop\\android-ndk\\smart_v8\\app\\src\\main\\cpp\\glm -IC:\\Users\\JerryZhu\\Desktop\\android-ndk\\smart_v8\\app\\src\\main\\cpp\\include -isystem E:\\adt-bundle-windows-x86_64\\sdk\\ndk-bundle\\sources\\cxx-stl\\llvm-libc++\\include -isystem E:\\adt-bundle-windows-x86_64\\sdk\\ndk-bundle\\sources\\android\\support\\include -isystem E:\\adt-bundle-windows-x86_64\\sdk\\ndk-bundle\\sources\\cxx-stl\\llvm-libc++abi\\include  -isystem E:/adt-bundle-windows-x86_64/sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11  -std=c++11 -Wall -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "C:/Users/JerryZhu/Desktop/android-ndk/smart_v8/app/src/main/cpp/ShaderHelper.cpp",
+					"workingDirectory" : "C:/Users/JerryZhu/Desktop/android-ndk/smart_v8/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/adt-bundle-windows-x86_64/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/adt-bundle-windows-x86_64/sdk/ndk-bundle/sysroot  -Dgl2v8_EXPORTS -IC:\\Users\\JerryZhu\\Desktop\\android-ndk\\smart_v8\\app\\src\\main\\cpp\\glm -IC:\\Users\\JerryZhu\\Desktop\\android-ndk\\smart_v8\\app\\src\\main\\cpp\\include -isystem E:\\adt-bundle-windows-x86_64\\sdk\\ndk-bundle\\sources\\cxx-stl\\llvm-libc++\\include -isystem E:\\adt-bundle-windows-x86_64\\sdk\\ndk-bundle\\sources\\android\\support\\include -isystem E:\\adt-bundle-windows-x86_64\\sdk\\ndk-bundle\\sources\\cxx-stl\\llvm-libc++abi\\include  -isystem E:/adt-bundle-windows-x86_64/sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11  -std=c++11 -Wall -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "C:/Users/JerryZhu/Desktop/android-ndk/smart_v8/app/src/main/cpp/ShaderProgram.cpp",
+					"workingDirectory" : "C:/Users/JerryZhu/Desktop/android-ndk/smart_v8/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/adt-bundle-windows-x86_64/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/adt-bundle-windows-x86_64/sdk/ndk-bundle/sysroot  -Dgl2v8_EXPORTS -IC:\\Users\\JerryZhu\\Desktop\\android-ndk\\smart_v8\\app\\src\\main\\cpp\\glm -IC:\\Users\\JerryZhu\\Desktop\\android-ndk\\smart_v8\\app\\src\\main\\cpp\\include -isystem E:\\adt-bundle-windows-x86_64\\sdk\\ndk-bundle\\sources\\cxx-stl\\llvm-libc++\\include -isystem E:\\adt-bundle-windows-x86_64\\sdk\\ndk-bundle\\sources\\android\\support\\include -isystem E:\\adt-bundle-windows-x86_64\\sdk\\ndk-bundle\\sources\\cxx-stl\\llvm-libc++abi\\include  -isystem E:/adt-bundle-windows-x86_64/sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11  -std=c++11 -Wall -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "C:/Users/JerryZhu/Desktop/android-ndk/smart_v8/app/src/main/cpp/Table.cpp",
+					"workingDirectory" : "C:/Users/JerryZhu/Desktop/android-ndk/smart_v8/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/adt-bundle-windows-x86_64/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/adt-bundle-windows-x86_64/sdk/ndk-bundle/sysroot  -Dgl2v8_EXPORTS -IC:\\Users\\JerryZhu\\Desktop\\android-ndk\\smart_v8\\app\\src\\main\\cpp\\glm -IC:\\Users\\JerryZhu\\Desktop\\android-ndk\\smart_v8\\app\\src\\main\\cpp\\include -isystem E:\\adt-bundle-windows-x86_64\\sdk\\ndk-bundle\\sources\\cxx-stl\\llvm-libc++\\include -isystem E:\\adt-bundle-windows-x86_64\\sdk\\ndk-bundle\\sources\\android\\support\\include -isystem E:\\adt-bundle-windows-x86_64\\sdk\\ndk-bundle\\sources\\cxx-stl\\llvm-libc++abi\\include  -isystem E:/adt-bundle-windows-x86_64/sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11  -std=c++11 -Wall -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "C:/Users/JerryZhu/Desktop/android-ndk/smart_v8/app/src/main/cpp/TextureHelper.cpp",
+					"workingDirectory" : "C:/Users/JerryZhu/Desktop/android-ndk/smart_v8/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/adt-bundle-windows-x86_64/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/adt-bundle-windows-x86_64/sdk/ndk-bundle/sysroot  -Dgl2v8_EXPORTS -IC:\\Users\\JerryZhu\\Desktop\\android-ndk\\smart_v8\\app\\src\\main\\cpp\\glm -IC:\\Users\\JerryZhu\\Desktop\\android-ndk\\smart_v8\\app\\src\\main\\cpp\\include -isystem E:\\adt-bundle-windows-x86_64\\sdk\\ndk-bundle\\sources\\cxx-stl\\llvm-libc++\\include -isystem E:\\adt-bundle-windows-x86_64\\sdk\\ndk-bundle\\sources\\android\\support\\include -isystem E:\\adt-bundle-windows-x86_64\\sdk\\ndk-bundle\\sources\\cxx-stl\\llvm-libc++abi\\include  -isystem E:/adt-bundle-windows-x86_64/sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11  -std=c++11 -Wall -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "C:/Users/JerryZhu/Desktop/android-ndk/smart_v8/app/src/main/cpp/TextureShaderProgram.cpp",
+					"workingDirectory" : "C:/Users/JerryZhu/Desktop/android-ndk/smart_v8/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/adt-bundle-windows-x86_64/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/adt-bundle-windows-x86_64/sdk/ndk-bundle/sysroot  -Dgl2v8_EXPORTS -IC:\\Users\\JerryZhu\\Desktop\\android-ndk\\smart_v8\\app\\src\\main\\cpp\\glm -IC:\\Users\\JerryZhu\\Desktop\\android-ndk\\smart_v8\\app\\src\\main\\cpp\\include -isystem E:\\adt-bundle-windows-x86_64\\sdk\\ndk-bundle\\sources\\cxx-stl\\llvm-libc++\\include -isystem E:\\adt-bundle-windows-x86_64\\sdk\\ndk-bundle\\sources\\android\\support\\include -isystem E:\\adt-bundle-windows-x86_64\\sdk\\ndk-bundle\\sources\\cxx-stl\\llvm-libc++abi\\include  -isystem E:/adt-bundle-windows-x86_64/sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11  -std=c++11 -Wall -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "C:/Users/JerryZhu/Desktop/android-ndk/smart_v8/app/src/main/cpp/ResourceReader.cpp",
+					"workingDirectory" : "C:/Users/JerryZhu/Desktop/android-ndk/smart_v8/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/adt-bundle-windows-x86_64/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/adt-bundle-windows-x86_64/sdk/ndk-bundle/sysroot  -Dgl2v8_EXPORTS -IC:\\Users\\JerryZhu\\Desktop\\android-ndk\\smart_v8\\app\\src\\main\\cpp\\glm -IC:\\Users\\JerryZhu\\Desktop\\android-ndk\\smart_v8\\app\\src\\main\\cpp\\include -isystem E:\\adt-bundle-windows-x86_64\\sdk\\ndk-bundle\\sources\\cxx-stl\\llvm-libc++\\include -isystem E:\\adt-bundle-windows-x86_64\\sdk\\ndk-bundle\\sources\\android\\support\\include -isystem E:\\adt-bundle-windows-x86_64\\sdk\\ndk-bundle\\sources\\cxx-stl\\llvm-libc++abi\\include  -isystem E:/adt-bundle-windows-x86_64/sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11  -std=c++11 -Wall -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "C:/Users/JerryZhu/Desktop/android-ndk/smart_v8/app/src/main/cpp/v8Helper.cpp",
+					"workingDirectory" : "C:/Users/JerryZhu/Desktop/android-ndk/smart_v8/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/adt-bundle-windows-x86_64/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/adt-bundle-windows-x86_64/sdk/ndk-bundle/sysroot  -Dgl2v8_EXPORTS -IC:\\Users\\JerryZhu\\Desktop\\android-ndk\\smart_v8\\app\\src\\main\\cpp\\glm -IC:\\Users\\JerryZhu\\Desktop\\android-ndk\\smart_v8\\app\\src\\main\\cpp\\include -isystem E:\\adt-bundle-windows-x86_64\\sdk\\ndk-bundle\\sources\\cxx-stl\\llvm-libc++\\include -isystem E:\\adt-bundle-windows-x86_64\\sdk\\ndk-bundle\\sources\\android\\support\\include -isystem E:\\adt-bundle-windows-x86_64\\sdk\\ndk-bundle\\sources\\cxx-stl\\llvm-libc++abi\\include  -isystem E:/adt-bundle-windows-x86_64/sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11  -std=c++11 -Wall -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "C:/Users/JerryZhu/Desktop/android-ndk/smart_v8/app/src/main/cpp/LocalCFunction.cpp",
+					"workingDirectory" : "C:/Users/JerryZhu/Desktop/android-ndk/smart_v8/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/adt-bundle-windows-x86_64/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/adt-bundle-windows-x86_64/sdk/ndk-bundle/sysroot  -Dgl2v8_EXPORTS -IC:\\Users\\JerryZhu\\Desktop\\android-ndk\\smart_v8\\app\\src\\main\\cpp\\glm -IC:\\Users\\JerryZhu\\Desktop\\android-ndk\\smart_v8\\app\\src\\main\\cpp\\include -isystem E:\\adt-bundle-windows-x86_64\\sdk\\ndk-bundle\\sources\\cxx-stl\\llvm-libc++\\include -isystem E:\\adt-bundle-windows-x86_64\\sdk\\ndk-bundle\\sources\\android\\support\\include -isystem E:\\adt-bundle-windows-x86_64\\sdk\\ndk-bundle\\sources\\cxx-stl\\llvm-libc++abi\\include  -isystem E:/adt-bundle-windows-x86_64/sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11  -std=c++11 -Wall -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "C:/Users/JerryZhu/Desktop/android-ndk/smart_v8/app/src/main/cpp/Person.cpp",
+					"workingDirectory" : "C:/Users/JerryZhu/Desktop/android-ndk/smart_v8/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=E:/adt-bundle-windows-x86_64/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/adt-bundle-windows-x86_64/sdk/ndk-bundle/sysroot  -Dgl2v8_EXPORTS -IC:\\Users\\JerryZhu\\Desktop\\android-ndk\\smart_v8\\app\\src\\main\\cpp\\glm -IC:\\Users\\JerryZhu\\Desktop\\android-ndk\\smart_v8\\app\\src\\main\\cpp\\include -isystem E:\\adt-bundle-windows-x86_64\\sdk\\ndk-bundle\\sources\\cxx-stl\\llvm-libc++\\include -isystem E:\\adt-bundle-windows-x86_64\\sdk\\ndk-bundle\\sources\\android\\support\\include -isystem E:\\adt-bundle-windows-x86_64\\sdk\\ndk-bundle\\sources\\cxx-stl\\llvm-libc++abi\\include  -isystem E:/adt-bundle-windows-x86_64/sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11  -std=c++11 -Wall -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "C:/Users/JerryZhu/Desktop/android-ndk/smart_v8/app/src/main/cpp/gl_code.cpp",
+					"workingDirectory" : "C:/Users/JerryZhu/Desktop/android-ndk/smart_v8/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				}
+			],
+			"output" : "C:/Users/JerryZhu/Desktop/android-ndk/smart_v8/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libgl2v8.so",
+			"toolchain" : "3266371601"
+		},
+		"v8_base-Debug-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "v8_base",
+			"buildType" : "debug",
+			"output" : "C:/Users/JerryZhu/Desktop/android-ndk/smart_v8/app/src/main/cpp/../jniLibs/armeabi-v7a/libv8_base.a",
+			"toolchain" : "3266371601"
+		},
+		"v8_snapshot-Debug-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "v8_snapshot",
+			"buildType" : "debug",
+			"output" : "C:/Users/JerryZhu/Desktop/android-ndk/smart_v8/app/src/main/cpp/../jniLibs/armeabi-v7a/libv8_snapshot.a",
+			"toolchain" : "3266371601"
+		}
+	},
+	"toolchains" : 
+	{
+		"3266371601" : 
+		{
+			"cCompilerExecutable" : "E:/adt-bundle-windows-x86_64/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe",
+			"cppCompilerExecutable" : "E:/adt-bundle-windows-x86_64/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe"
+		}
+	}
+}

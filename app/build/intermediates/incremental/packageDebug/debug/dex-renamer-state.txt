@@ -1,0 +1,4 @@
+#Wed Jun 06 10:36:00 CST 2018
+base.0=C\:\\Users\\JerryZhu\\Desktop\\android-ndk\\smart_v8\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+path.0=classes.dex
+renamed.0=classes.dex

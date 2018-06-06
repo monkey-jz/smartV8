@@ -1,0 +1,15 @@
+Executable : E:\adt-bundle-windows-x86_64\sdk\cmake\3.6.4111459\bin\cmake.exe
+arguments : 
+-HC:\Users\JerryZhu\Desktop\android-ndk\smart_v8\app\src\main\cpp
+-BC:\Users\JerryZhu\Desktop\android-ndk\smart_v8\app\.externalNativeBuild\cmake\debug\armeabi-v7a
+-DANDROID_ABI=armeabi-v7a
+-DANDROID_PLATFORM=android-14
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=C:\Users\JerryZhu\Desktop\android-ndk\smart_v8\app\build\intermediates\cmake\debug\obj\armeabi-v7a
+-DCMAKE_BUILD_TYPE=Debug
+-DANDROID_NDK=E:\adt-bundle-windows-x86_64\sdk\ndk-bundle
+-DCMAKE_TOOLCHAIN_FILE=E:\adt-bundle-windows-x86_64\sdk\ndk-bundle\build\cmake\android.toolchain.cmake
+-DCMAKE_MAKE_PROGRAM=E:\adt-bundle-windows-x86_64\sdk\cmake\3.6.4111459\bin\ninja.exe
+-GAndroid Gradle - Ninja
+-DANDROID_STL=c++_static
+jvmArgs : 
+
